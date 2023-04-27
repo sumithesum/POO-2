@@ -1,0 +1,3 @@
+C:/Users/sumur/Documents/GitHub/POO-2/cmake-build-debug/CMakeFiles/POO_2.dir
+C:/Users/sumur/Documents/GitHub/POO-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sumur/Documents/GitHub/POO-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

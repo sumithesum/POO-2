@@ -32,6 +32,14 @@ void Joc::Print(std::ostream &os) const {
     os<< " rating: " << rating << " varsta minima: "<<varsta_minima;
 }
 
+int Joc::getVarstaMinima() const {
+    return varsta_minima;
+}
+
+void Joc::setVarstaMinima(int varstaMinima) {
+    varsta_minima = varstaMinima;
+}
+
 
 
 

@@ -49,12 +49,6 @@ cmake_ninja_workdir = C$:/Users/sumur/Documents/GitHub/POO-2/cmake-build-debug/
 
 build cmake_object_order_depends_target_POO_2: phony || CMakeFiles/POO_2.dir
 
-build CMakeFiles/POO_2.dir/main.cpp.obj: CXX_COMPILER__POO_2_Debug C$:/Users/sumur/Documents/GitHub/POO-2/main.cpp || cmake_object_order_depends_target_POO_2
-  DEP_FILE = CMakeFiles\POO_2.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  OBJECT_DIR = CMakeFiles\POO_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\POO_2.dir
-
 build CMakeFiles/POO_2.dir/Produs.cpp.obj: CXX_COMPILER__POO_2_Debug C$:/Users/sumur/Documents/GitHub/POO-2/Produs.cpp || cmake_object_order_depends_target_POO_2
   DEP_FILE = CMakeFiles\POO_2.dir\Produs.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
@@ -79,8 +73,8 @@ build CMakeFiles/POO_2.dir/Magazin.h.cpp.obj: CXX_COMPILER__POO_2_Debug C$:/User
   OBJECT_DIR = CMakeFiles\POO_2.dir
   OBJECT_FILE_DIR = CMakeFiles\POO_2.dir
 
-build CMakeFiles/POO_2.dir/i.cpp.obj: CXX_COMPILER__POO_2_Debug C$:/Users/sumur/Documents/GitHub/POO-2/i.cpp || cmake_object_order_depends_target_POO_2
-  DEP_FILE = CMakeFiles\POO_2.dir\i.cpp.obj.d
+build CMakeFiles/POO_2.dir/main.cpp.obj: CXX_COMPILER__POO_2_Debug C$:/Users/sumur/Documents/GitHub/POO-2/main.cpp || cmake_object_order_depends_target_POO_2
+  DEP_FILE = CMakeFiles\POO_2.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\POO_2.dir
   OBJECT_FILE_DIR = CMakeFiles\POO_2.dir
@@ -93,7 +87,7 @@ build CMakeFiles/POO_2.dir/i.cpp.obj: CXX_COMPILER__POO_2_Debug C$:/Users/sumur/
 #############################################
 # Link the executable POO_2.exe
 
-build POO_2.exe: CXX_EXECUTABLE_LINKER__POO_2_Debug CMakeFiles/POO_2.dir/main.cpp.obj CMakeFiles/POO_2.dir/Produs.cpp.obj CMakeFiles/POO_2.dir/joc.cpp.obj CMakeFiles/POO_2.dir/console.cpp.obj CMakeFiles/POO_2.dir/Magazin.h.cpp.obj CMakeFiles/POO_2.dir/i.cpp.obj
+build POO_2.exe: CXX_EXECUTABLE_LINKER__POO_2_Debug CMakeFiles/POO_2.dir/Produs.cpp.obj CMakeFiles/POO_2.dir/joc.cpp.obj CMakeFiles/POO_2.dir/console.cpp.obj CMakeFiles/POO_2.dir/Magazin.h.cpp.obj CMakeFiles/POO_2.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\POO_2.dir

@@ -1,6 +1,3 @@
-//
-// Created by sumur on 4/28/2023.
-//
 
 #ifndef POO_2_CONSOLE_H
 #define POO_2_CONSOLE_H
@@ -9,12 +6,16 @@
 #include <string>
 #include <ostream>
 
-class console: public Produs{
+
+
+class Console: public Produs{
     std::string procesor;
     int ram;
     std::string culoare;
 public:
-    console(float pret,int cantitate ,const std::string marca, const std::string nume, const std::string procesor, int ram,const std::string culoare);
+    Console(float pret, int cantitate, const std::string marca, const std::string nume,const std::string procesor, int ram, const std::string culoare) ;
+
+
 
     const std::string &getProcesor() const;
 
@@ -30,7 +31,7 @@ public:
 
     void Print(std::ostream &os) const override;
 
-    console& operator=(const console& c);
+    Console& operator=(const Console& c);
 };
 
 

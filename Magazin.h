@@ -11,7 +11,7 @@ class Magazin {
 private:
     Magazin();
 public:
-    static void AddProdus(std::shared_ptr<Produs>);
+    static void AddProdus( const std::shared_ptr<Produs>& produs);
     static void ShowAllProducs();
 };
 #endif //POO_2_MAGAZIN_H

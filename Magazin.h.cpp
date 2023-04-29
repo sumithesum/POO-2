@@ -6,10 +6,10 @@
 #include <string>
 #include <set>
 
-std::vector<std::shared_ptr<Produs>> produse;
+std::vector<std::shared_ptr<Produs>>Magazin:: produse;
 Magazin::Magazin() = default;
 
-void Magazin ::AddProdus(std::shared_ptr<Produs> produs) {
+void Magazin ::AddProdus(const std::shared_ptr<Produs> &produs) {
     produse.push_back(produs);
 }
 

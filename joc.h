@@ -15,9 +15,9 @@ public:
 
     void setRating(float rating) ;
 
-    int getVarstaMinima() const ;
+    int getVarstaMinima() const;
 
-    void setVarstaMinima(int varstaMinima) ;
+    void setVarstaMinima(int varstaMinima);
 
     void Print(std::ostream &os) const override;
 
